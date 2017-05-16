@@ -1,0 +1,14 @@
+<div class="signout">
+  <%= link_to 'サインアウト!&gt;&gt;'.html_safe, destroy_account_session_path, method: :delete %>
+</div>
+<h1><%= @account.email %>さんようこそ</h1>
+<p><%= @msg %></p>
+<div class="main">
+  <%= link_to('友達','/add_friend') %>
+</div>
+<div class="main">
+  <%= link_to('トーク','/talk') %>
+</div>
+<div class="main">
+  <%= link_to('設定','/creation') %>
+</div>

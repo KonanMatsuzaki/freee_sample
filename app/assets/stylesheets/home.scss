@@ -1,0 +1,31 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/.
+* {
+  text-align: center;
+  color: white;
+}
+
+.head h1 {
+  text-align: center;
+  color: white;
+}
+
+.login {
+  text-align: center;
+  color: white;
+}
+
+.signOut {
+  text-align: center;
+  color: white;
+}
+
+.signout {
+  text-align: right;
+}
+
+.main {
+  width: 33%;
+  float: left;
+}

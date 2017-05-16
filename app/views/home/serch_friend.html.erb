@@ -1,0 +1,22 @@
+<h1>LINE</h1>
+<table>
+<%= form_tag(controller: 'home', action: 'find') do %>
+<tr><th>Find</th>
+    <td><% text_field_tag("find") %></td>
+</tr>
+<tr><th></th>
+    <td><% submit_tag("Click") %></td>
+</tr>
+<% end %>
+</table>
+<hr>
+<table>
+  <tr>
+    <th>Mail</th>
+  </tr>
+  <% @accounts.each do |obj| %>
+  <tr>
+    <td><%= obj.email %></td>
+  </tr>
+  <% end %>
+</table>

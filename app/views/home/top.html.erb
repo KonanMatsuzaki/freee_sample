@@ -1,0 +1,11 @@
+<div class="head">
+  <h1>LINE</h1>
+</div>
+<br>
+<br>
+<div class="login">
+  <%= link_to 'ログイン!&gt;&gt;'.html_safe, {action: 'login_check'} %>
+</div>
+<div class="signOut">
+  <%= link_to 'サインアウト!&gt;&gt;'.html_safe, destroy_account_session_path, method: :delete %>
+</div>
